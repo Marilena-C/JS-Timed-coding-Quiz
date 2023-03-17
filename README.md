@@ -22,14 +22,11 @@ Start by splitting the task into smaller subtasks, in script.js file, first writ
 
 In html file, I've added the required link tags to my head element and the script tags right before the closing. 
   ## Screenshots
-First commintment:
-![Alt text](assets/images/startingScrnshtGitH.jpg)
-https://github.com/Marilena-C/JS-Timed-coding-Quiz/blob/main/assets/images/startingScrnshtGitH.jpg
+- Live server:
+![Alt text](assets/images/pageScreenshot.jpg)
 
-![Alt text](assets/images/startingScreenshot.jpg)
-https://github.com/Marilena-C/JS-Timed-coding-Quiz/blob/main/assets/images/startingScreenshot.jpg
+- Github page:
 
-Second commintment:
 
 
   ## Links
