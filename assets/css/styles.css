@@ -1,6 +1,10 @@
 body {
   font-family: Arial;
   font-size: 120%;
+  background-color: #cfeff4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -13,6 +17,14 @@ a:hover {
   color: #8570a5;
 }
 
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  overflow: hidden;
+  width: 600px;
+  max-width: 100%;
+}
 button {
   display: inline-block;
   margin: 5px;

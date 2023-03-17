@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web-API-Timed-Coding Quiz</title>
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
-    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+    
+    <div class="scores"><a href="highscores.html">View High scores</a></div>
 
     <div class="timer">Time: <span id="time">0</span></div>
 
@@ -26,6 +30,27 @@
     <!--A start button that when clicked, a timer starts and the first question appears-->
       </div>
 
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <li>
+                    <input
+                        type="radio"
+                        id="a"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="a_text" for="a">Question</label>
+                </li>
+                <li>
+                    <input
+                        type="radio"
+                        id="b"
+                        name="answer"
+                        class="answer"
+                    />
+      <!-- Nested <div> blocks -->
       <div id="questions" class="hide">
         <h2 id="question-title"></h2>
         <div id="choices" class="choices"></div>
@@ -42,9 +67,9 @@
 
       <div id="feedback" class="feedback hide"></div>
     </div>
-
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/logic.js"></script>
-    <script src="./assets/js/script.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/js/questions.js"></script>
+  <script src="./assets/js/logic.js"></script>
+  <script src="./assets/js/script.js"></script>
   </body>
 </html>

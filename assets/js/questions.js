@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-    "question": "What do you need use to declare a value that can change, depending on conditions or on information passed to the program?"
+    "question": "What do you need use to declare a value that can change, depending on conditions or on information passed to the program?",
     "description": "declare a value",
     "choices": {
       "answer_a": "array",

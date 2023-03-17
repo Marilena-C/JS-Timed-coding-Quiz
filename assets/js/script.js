@@ -2,12 +2,15 @@
 var time = 0;
 //  Declare questions and choices button elements
 var questionEl = document.querySelector("#questions");
-var choiceEl = document.querySelector("#choices");
+//var choiceEl = document.querySelector("#choices");
 var countEl = document.querySelector("#timer");
 //Declare an array of words that the user will answer
-var answers = ["variable","array", "styling", "object", "function", "string", "boolean"];
+//var answers = ["variable","array", "styling", "object", "function", "string", "boolean"];
+//Create a list of <p> elements whose immediate parent element is a <div> with the class choices and which are located inside a container whose ID is choices
+const answers = document.querySelector("#choices");
+
 function startQuiz() {
-  document.getElementById("question").innerHTML = "Answer the first question";
+  document.getElementById("#questions").innerHTML = "Answer the first question";
 }
 
 // Start button that when clicked a timer starts and the first question appears
@@ -29,7 +32,7 @@ start.addEventListener("click", function() {
   start.addEventListener("click", function() {
     if (time > 0) {
      time ++;
-     questionEl[];
+     questionEl[questionEl];
     }
   });
 
@@ -62,4 +65,12 @@ function finalScore() {
 //Add up to the final score and when the game ends, display their score and give the user the ability to save their initials and their score
 
 //prevent default in order to retain the data input from user
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).on( "click", function( finalScore ) {
+      finalScore.preventDefault();
+    } );
+  } );
+  
+
 setInterval(time, 1000);
